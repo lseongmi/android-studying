@@ -6,27 +6,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#00CCFF"
     tools:context=".MainActivity">
 
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/button1"
         android:layout_height="wrap_content"
-        android:text="Ok확인"
-        android:id="@+id/button1" />
+        android:layout_width="match_parent"
+        android:text="OK" />
 
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/button2"
         android:layout_height="wrap_content"
-        android:text="캔슬취소"
-        android:id="@+id/button2" />
+        android:layout_width="match_parent"
+        android:text="CANCEL" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Hello World!" />
 
+    <RadioButton
+        android:background="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio1"
+        android:text="여성" />
+
+    <RadioButton
+        android:background="#FFDD00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio2"
+        android:text="남성" />
 
 </LinearLayout>
