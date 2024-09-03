@@ -50,6 +50,20 @@
         android:padding="30dp"
         android:hint = "여기에 검색하세요"/>
 
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "요맘때"
+        android:id="@+id/check1"
+        android:background="#4296FB"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "메론바"
+        android:id="@+id/check2"
+        android:background="#A370EB"/>
+
 
 </LinearLayout>
 
